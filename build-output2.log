@@ -1,0 +1,14 @@
+
+> claude-usage-widget@1.7.4 build:win
+> electron-builder --win
+
+  • electron-builder  version=24.13.3 os=10.0.26200
+  • loaded configuration  file=package.json ("build" field)
+  • packaging       platform=win32 arch=x64 electron=28.3.3 appOutDir=dist\win-unpacked
+  • building        target=nsis file=dist\Claude-Usage-Widget-1.7.4-win-Setup.exe archs=x64 oneClick=false perMachine=false
+  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-3.0.4.1/nsis-3.0.4.1.7z size=1.3 MB parts=1
+  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-3.0.4.1/nsis-3.0.4.1.7z duration=442ms
+  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-resources-3.4.1/nsis-resources-3.4.1.7z size=731 kB parts=1
+  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-resources-3.4.1/nsis-resources-3.4.1.7z duration=390ms
+  • building block map  blockMapFile=dist\Claude-Usage-Widget-1.7.4-win-Setup.exe.blockmap
+  • building        target=portable file=dist\Claude-Usage-Widget-1.7.4-win-portable.exe archs=x64

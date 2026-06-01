@@ -1,0 +1,137 @@
+
+> claude-usage-widget@1.7.4 build:win
+> electron-builder --win
+
+  • electron-builder  version=24.13.3 os=10.0.26200
+  • loaded configuration  file=package.json ("build" field)
+  • packaging       platform=win32 arch=x64 electron=28.3.3 appOutDir=dist\win-unpacked
+  • downloading     url=https://github.com/electron/electron/releases/download/v28.3.3/electron-v28.3.3-win32-x64.zip size=108 MB parts=8
+  • downloaded      url=https://github.com/electron/electron/releases/download/v28.3.3/electron-v28.3.3-win32-x64.zip duration=13.173s
+  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z size=5.6 MB parts=1
+  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z duration=1.058s
+  ⨯ cannot execute  cause=exit status 2
+                    out=
+    7-Zip (a) 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+    
+    Scanning the drive for archives:
+    1 file, 5635384 bytes (5504 KiB)
+    
+    Extracting archive: C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\654401935.7z
+    --
+    Path = C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\654401935.7z
+    Type = 7z
+    Physical Size = 5635384
+    Headers Size = 1492
+    Method = LZMA2:24m LZMA:20 BCJ2
+    Solid = +
+    Blocks = 2
+    
+    
+    Sub items Errors: 2
+    
+    Archives with Errors: 1
+    
+    Sub items Errors: 2
+    
+                    errorOut=ERROR: Cannot create symbolic link : A required privilege is not held by the client. : C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\654401935\darwin\10.12\lib\libcrypto.dylib
+    ERROR: Cannot create symbolic link : A required privilege is not held by the client. : C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\654401935\darwin\10.12\lib\libssl.dylib
+    
+                    command='C:\Users\conra\Downloads\claude-usage-widget-1.7.6\claude-usage-widget-1.7.4\node_modules\7zip-bin\win\x64\7za.exe' x -bd 'C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\654401935.7z' '-oC:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\654401935'
+                    workingDir=C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign
+  • Above command failed, retrying 3 more times
+  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z size=5.6 MB parts=1
+  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z duration=954ms
+  ⨯ cannot execute  cause=exit status 2
+                    out=
+    7-Zip (a) 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+    
+    Scanning the drive for archives:
+    1 file, 5635384 bytes (5504 KiB)
+    
+    Extracting archive: C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\878884539.7z
+    --
+    Path = C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\878884539.7z
+    Type = 7z
+    Physical Size = 5635384
+    Headers Size = 1492
+    Method = LZMA2:24m LZMA:20 BCJ2
+    Solid = +
+    Blocks = 2
+    
+    
+    Sub items Errors: 2
+    
+    Archives with Errors: 1
+    
+    Sub items Errors: 2
+    
+                    errorOut=ERROR: Cannot create symbolic link : A required privilege is not held by the client. : C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\878884539\darwin\10.12\lib\libcrypto.dylib
+    ERROR: Cannot create symbolic link : A required privilege is not held by the client. : C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\878884539\darwin\10.12\lib\libssl.dylib
+    
+                    command='C:\Users\conra\Downloads\claude-usage-widget-1.7.6\claude-usage-widget-1.7.4\node_modules\7zip-bin\win\x64\7za.exe' x -bd 'C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\878884539.7z' '-oC:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\878884539'
+                    workingDir=C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign
+  • Above command failed, retrying 2 more times
+  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z size=5.6 MB parts=1
+  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z duration=875ms
+  ⨯ cannot execute  cause=exit status 2
+                    out=
+    7-Zip (a) 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+    
+    Scanning the drive for archives:
+    1 file, 5635384 bytes (5504 KiB)
+    
+    Extracting archive: C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\138572531.7z
+    --
+    Path = C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\138572531.7z
+    Type = 7z
+    Physical Size = 5635384
+    Headers Size = 1492
+    Method = LZMA2:24m LZMA:20 BCJ2
+    Solid = +
+    Blocks = 2
+    
+    
+    Sub items Errors: 2
+    
+    Archives with Errors: 1
+    
+    Sub items Errors: 2
+    
+                    errorOut=ERROR: Cannot create symbolic link : A required privilege is not held by the client. : C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\138572531\darwin\10.12\lib\libcrypto.dylib
+    ERROR: Cannot create symbolic link : A required privilege is not held by the client. : C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\138572531\darwin\10.12\lib\libssl.dylib
+    
+                    command='C:\Users\conra\Downloads\claude-usage-widget-1.7.6\claude-usage-widget-1.7.4\node_modules\7zip-bin\win\x64\7za.exe' x -bd 'C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\138572531.7z' '-oC:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\138572531'
+                    workingDir=C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign
+  • Above command failed, retrying 1 more times
+  • downloading     url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z size=5.6 MB parts=1
+  • downloaded      url=https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z duration=1.015s
+  ⨯ cannot execute  cause=exit status 2
+                    out=
+    7-Zip (a) 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+    
+    Scanning the drive for archives:
+    1 file, 5635384 bytes (5504 KiB)
+    
+    Extracting archive: C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\623578183.7z
+    --
+    Path = C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\623578183.7z
+    Type = 7z
+    Physical Size = 5635384
+    Headers Size = 1492
+    Method = LZMA2:24m LZMA:20 BCJ2
+    Solid = +
+    Blocks = 2
+    
+    
+    Sub items Errors: 2
+    
+    Archives with Errors: 1
+    
+    Sub items Errors: 2
+    
+                    errorOut=ERROR: Cannot create symbolic link : A required privilege is not held by the client. : C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\623578183\darwin\10.12\lib\libcrypto.dylib
+    ERROR: Cannot create symbolic link : A required privilege is not held by the client. : C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\623578183\darwin\10.12\lib\libssl.dylib
+    
+                    command='C:\Users\conra\Downloads\claude-usage-widget-1.7.6\claude-usage-widget-1.7.4\node_modules\7zip-bin\win\x64\7za.exe' x -bd 'C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\623578183.7z' '-oC:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign\623578183'
+                    workingDir=C:\Users\conra\AppData\Local\electron-builder\Cache\winCodeSign
+  • Above command failed, retrying 0 more times
