@@ -1,4 +1,4 @@
-# Claude Usage Widget
+# Claude Usage tracker
 
 ## improvenets 
 
